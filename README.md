@@ -4,13 +4,27 @@
 
 ## Features
 
-- **2D HSQC Analysis**: Automates PCA on 2D Peak lists (chemical shift perturbations).
-- **1D Projection Analysis**: Projects 2D data into <sup>1</sup>H and <sup>15</sup>N dimensions for simplified visualization.
-- **PCA Visualization**: Interactive 2D and 3D plots of scores and loadings.
-- **Outlier Detection**: Statistical identification of significant chemical shift changes (Mahalanobis distance & P-value).
-- **Binding Affinity (K<sub>d</sub>) Fitting**:
-  - **Traditional**: Standard fitting with 2D or 1D spectra.
-  - **Relax**: Global fitting shared across residues for robust estimation.
+<ul>
+  <li>
+    <strong>2D HSQC Analysis</strong>: Automates multi-parametric PCA on titration data extracted from <strong>2rr files</strong>, specifically analyzing chemical shift perturbations and peak intensity changes.
+  </li>
+  <li>
+    <strong>1D Projection Analysis</strong>: Projects complex 2D spectra into <strong><sup>1</sup>H and <sup>15</sup>N dimensions</strong> to provide simplified visualization of residue-specific shifts.
+  </li>
+  <li>
+    <strong>PCA Visualization</strong>: Provides interactive <strong>2D plots</strong> of scores and loadings for intuitive identification of binding patterns (3D plotting is excluded for clearer data interpretation).
+  </li>
+  <li>
+    <strong>Outlier Detection</strong>: Statistical identification of significant binding-induced changes using <strong>Mahalanobis distance and P-value</strong> calculations.
+  </li>
+  <li>
+    <strong>Binding Affinity (K<sub>d</sub>) Fitting</strong>:
+    <ul>
+      <li><strong>Traditional</strong>: Standard non-linear regression fitting using 2D or 1D spectral data for individual residues.</li>
+      <li><strong>Relax</strong>: <strong>Robust global fitting</strong> shared across multiple residues to ensure stable estimation when individual peak data is ambiguous or noisy.</li>
+    </ul>
+  </li>
+</ul>
 
 ## Prerequisites
 
