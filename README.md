@@ -32,7 +32,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/PPALI_2.git
+git clone https://github.com/IMZ1590/PPALI_2.git
 cd PPALI_2
 ```
 
