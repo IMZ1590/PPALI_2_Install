@@ -1,6 +1,6 @@
-# PPALI 2 (Peak-based PCA Analysis for Ligand Interactions 2)
+# PPALI <sup>2</sup> (Peak-based PCA Analysis for Ligand Interactions 2)
 
-**PPALI 2** is a web-based tool for analyzing NMR data using Principal Component Analysis (PCA). It specifically targets ligand-protein interaction studies, providing robust analysis for both 1D and 2D NMR titration series.
+**PPALI <sup>2</sup>** is a web-based tool for analyzing NMR data using Principal Component Analysis (PCA). It specifically targets ligand-protein interaction studies, providing robust analysis for both 1D and 2D NMR titration series.
 
 ## Features
 
