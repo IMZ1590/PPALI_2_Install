@@ -5,7 +5,7 @@
 ## Features
 
 - **2D HSQC Analysis**: Automates PCA on 2D Peak lists (chemical shift perturbations).
-- **1D Projection Analysis**: Projects 2D data into 1H and 15N dimensions for simplified visualization.
+- **1D Projection Analysis**: Projects 2D data into ^1^H and ^15^N dimensions for simplified visualization.
 - **PCA Visualization**: Interactive 2D and 3D plots of scores and loadings.
 - **Outlier Detection**: Statistical identification of significant chemical shift changes (Mahalanobis distance & P-value).
 - **Binding Affinity (Kd) Fitting**:
