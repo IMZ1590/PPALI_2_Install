@@ -12,9 +12,6 @@
     <strong>1D Projection Analysis</strong>: Projects 2D spectra into <strong><sup>1</sup>H and <sup>15</sup>N dimensions</strong> to provide simplified visualization of spectral shifts.
   </li>
   <li>
-    <strong>PCA Visualization</strong>: Provides interactive <strong>2D plots</strong> of scores and loadings for intuitive identification of binding patterns (3D plotting is excluded for clearer data interpretation).
-  </li>
-  <li>
     <strong>Binding Affinity (K<sub>d</sub>) Fitting</strong>:
     <ul>
       <li><strong>Traditional</strong>: Standard non-linear regression fitting using 2D or 1D spectral data.</li>
