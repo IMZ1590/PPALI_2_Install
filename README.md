@@ -15,9 +15,6 @@
     <strong>PCA Visualization</strong>: Provides interactive <strong>2D plots</strong> of scores and loadings for intuitive identification of binding patterns (3D plotting is excluded for clearer data interpretation).
   </li>
   <li>
-    <strong>Outlier Detection</strong>: Statistical identification of significant binding-induced changes using <strong>Mahalanobis distance and P-value</strong> calculations.
-  </li>
-  <li>
     <strong>Binding Affinity (K<sub>d</sub>) Fitting</strong>:
     <ul>
       <li><strong>Traditional</strong>: Standard non-linear regression fitting using 2D or 1D spectral data for individual residues.</li>
