@@ -106,7 +106,7 @@ from fastapi import UploadFile, File
 
 @app.post("/upload-scan")
 async def upload_scan_directory(files: List[UploadFile] = File(...), dim: str = Form("2D")):
-    temp_dir = tempfile.mkdtemp(prefix="ppali_upload_")
+    temp_dir = tempfile.mkdtemp(prefix="pali_upload_")
     
     for file in files:
         if not file.filename: continue
