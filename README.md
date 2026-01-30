@@ -1,6 +1,6 @@
-# PPALI <sup>2</sup> (Peak-based PCA Analysis for Ligand Interactions 2)
+# PALI <sup>2</sup> (PCA Analysis for Ligand Interactions 2)
 
-**PPALI <sup>2</sup>** is a web-based tool for analyzing NMR data using Principal Component Analysis (PCA). It specifically targets ligand-protein interaction studies, providing robust analysis for both 1D and 2D NMR titration series.
+**PALI <sup>2</sup>** is a web-based tool for analyzing NMR data using Principal Component Analysis (PCA). It specifically targets ligand-protein interaction studies, providing robust analysis for both 1D and 2D NMR titration series.
 
 ## Features
 
@@ -10,6 +10,9 @@
   </li>
   <li>
     <strong>1D Projection Analysis</strong>: Projects 2D spectra into <strong><sup>1</sup>H and <sup>15</sup>N dimensions</strong> to provide simplified visualization of spectral shifts.
+  </li>
+  <li>
+    <strong>PCA Visualization</strong>: Provides interactive <strong>2D plots</strong> of scores and loadings for intuitive identification of binding patterns (3D plotting is excluded for clearer data interpretation).
   </li>
   <li>
     <strong>Binding Affinity (K<sub>d</sub>) Fitting</strong>:
@@ -29,8 +32,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/IMZ1590/PPALI_2.git
-cd PPALI_2
+git clone https://github.com/IMZ1590/PALI_2.git
+cd PALI_2
 ```
 
 ### 2. Setup Python Environment

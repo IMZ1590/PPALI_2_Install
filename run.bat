@@ -1,6 +1,6 @@
 @echo off
 cd /d "%~dp0"
-title PPALI 2 Server
+title PALI 2 Server
 
 IF NOT EXIST "venv" (
     echo [INFO] Creating Virtual Environment...
